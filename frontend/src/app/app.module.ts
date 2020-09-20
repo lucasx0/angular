@@ -17,6 +17,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { RoxoDirective } from './directives/roxo.directive';
 import { ForDirective } from './directives/for.directive';
+import { ProductCreatComponent } from './components/product/product-creat/product-creat.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ForDirective } from './directives/for.directive';
     HomeComponent,
     ProductCrudComponent,
     RoxoDirective,
-    ForDirective
+    ForDirective,
+    ProductCreatComponent
     
   ],
   imports: [

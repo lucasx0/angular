@@ -21,6 +21,8 @@ import { ProductCreatComponent } from './components/product/product-creat/produc
 import { MatButtonModule } from '@angular/material/button' 
 import { MatSnackBarModule } from '@angular/material/snack-bar' 
 
+import { HttpClientModule } from '@angular/common/http'
+
 
 
 
@@ -46,7 +48,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar'
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
     
   ],
   providers: [],

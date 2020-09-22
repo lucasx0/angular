@@ -19,6 +19,8 @@ import { RoxoDirective } from './directives/roxo.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreatComponent } from './components/product/product-creat/product-creat.component';
 import { MatButtonModule } from '@angular/material/button' 
+import { MatSnackBarModule } from '@angular/material/snack-bar' 
+
 
 
 
@@ -43,7 +45,8 @@ import { MatButtonModule } from '@angular/material/button'
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
     
   ],
   providers: [],
